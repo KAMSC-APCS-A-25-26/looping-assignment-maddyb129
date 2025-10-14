@@ -11,16 +11,20 @@ public class NumberTrianglePattern {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++)
             {
-                if (j == i)
-                {
-                    System.out.print(j);
-                }
-                else
+                if (j < n)
                 {
                     System.out.print(j + " ");
                 }
+                else
+                {
+                    System.out.print(j);
+                }
             }
-            System.out.println();
+            if (i < n)
+            {
+                System.out.println();
+            }
+
         }
     }
 }
