@@ -22,7 +22,7 @@ public class SumOfEvenNumbers {
             }
         }
         // TODO: Step 4 - Display the result
-        System.out.println("The sum of even numbers between 2 and " + n + " is " + add);
+        System.out.print("The sum of even numbers between 2 and " + n + " is " + add + ".");
 
     }
 }
