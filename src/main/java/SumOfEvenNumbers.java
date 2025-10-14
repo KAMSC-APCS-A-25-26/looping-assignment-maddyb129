@@ -4,7 +4,7 @@ public class SumOfEvenNumbers {
     public static void main(String[] args) {
         // TODO: Step 1 - Get user input
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter an integer value: ");
+        System.out.print("Enter an integer value:");
         int n = sc.nextInt();
         // TODO: Step 2 - Validate input
         int add = 0;
