@@ -5,7 +5,7 @@ public class NumberTrianglePattern {
 
         // TODO: Step 1 - Get user input
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a positive integer: ");
+        System.out.println("Enter a positive integer: ");
         int n = sc.nextInt();
         // TODO: Step 2 - Generate the number triangle pattern
         for (int i = 1; i <= n; i++) {
@@ -28,4 +28,4 @@ public class NumberTrianglePattern {
         }
     }
 }
-// no extra space after numbers
+// no trailing spaces
