@@ -16,3 +16,4 @@ public class NumberTrianglePattern {
         }
     }
 }
+// no extra space after numbers
