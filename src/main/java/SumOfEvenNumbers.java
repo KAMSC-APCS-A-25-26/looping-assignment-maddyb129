@@ -19,7 +19,6 @@ public class SumOfEvenNumbers {
             for (int i = 2; i <= n; i= i + 2)
             {
                 add += i;
-
             }
         }
         // TODO: Step 4 - Display the result
