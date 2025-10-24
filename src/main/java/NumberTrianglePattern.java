@@ -7,7 +7,7 @@ public class NumberTrianglePattern {
         System.out.println("Enter a positive integer: ");
         int n = sc.nextInt();
         // TODO: Step 2 - Generate the number triangle pattern
-        for (int j = 2; j <= n; j++) {
+        for (int j = 1; j <= n; j++) {
             for (int i = 1; i <= j; i++)
             {
                 if (i < j)
